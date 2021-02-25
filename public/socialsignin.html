@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bada Software</title>
+</head>
+<body>
+	<h2>Social SignIn</h2>
+		
+	<form action="../middleware/SocialSignIn.php" method="post">
+		<label for="provider">Enter Provider Name :</label><br>
+		<input type="text" name="provider" required="required"/><br/><br/>
+
+		<label for="social_id">Enter Social Id :</label><br>
+		<input type="text" name="socialId" required="required" /><br/><br/>
+
+		<label for="picture">Picture url :</label><br>
+		<input type="text" name="picture" required="required" /><br/><br/>
+
+		<label for="first_name">Enter First Name :</label><br>
+		<input type="text" name="firstName" required="required"/><br/><br/>
+
+		<label for="last_name">Enter Last Name :</label><br>
+		<input type="text" name="lastName" required="required" /><br/><br/>
+
+		<label for="email">Enter email :</label><br>
+		<input type="text" name="email" required="required"/><br/><br/>
+
+		<label for="fcm_token">Enter FCM Token :</label><br>
+		<input type="text" name="fcmToken" required="required"/><br/><br/>
+
+		<input type="submit" value="Social SignIn"/>
+	</form>
+</body>
+</html>

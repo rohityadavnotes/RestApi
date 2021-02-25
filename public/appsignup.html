@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bada Software</title>
+</head>
+<body>
+	<h2>SignUp</h2>
+		
+	<a href="signin.html">Click here to SignIn</a><br/><br/>
+
+	<form action="../middleware/AppSignUp.php" method="post" enctype="multipart/form-data">
+
+		<label for="fileSelect">Select Picture :</label><br>
+        <input type="file" name="profilePic" id="profilePic"><br/><br/>
+
+		<label for="first_name">Enter First Name :</label><br>
+		<input type="text" name="firstName" required="required"/><br/><br/>
+
+		<label for="last_name">Enter Last Name :</label><br>
+		<input type="text" name="lastName" required="required" /><br/><br/>
+
+		<label for="gender">Enter Gender :</label><br>
+		<input type="text" name="gender" required="required" /><br/><br/>
+		
+		<label for="country_code">Enter Country Code :</label><br>
+		<input type="text" name="countryCode" required="required"/><br/><br/>
+
+		<label for="phone_number">Enter Phone Number :</label><br>
+		<input type="text" name="phoneNumber" required="required"/><br/><br/>
+
+		<label for="email">Enter email :</label><br>
+		<input type="text" name="email" required="required"/><br/><br/>
+
+		<label for="password">Enter Password :</label><br>
+		<input type="password" name="password" required="required"/><br/><br/>
+
+		<label for="fcm_token">Enter FCM Token :</label><br>
+		<input type="text" name="fcmToken" required="required"/><br/><br/>
+
+		<input type="submit" value="SignUp"/>
+	</form>
+</body>
+</html>

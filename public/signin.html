@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bada Software</title>
+</head>
+<body>
+	<h2>SignIn</h2>
+		
+	<a href="appsignup.html">Click here to SignUp</a><br/><br/>
+
+	<form action="../middleware/SignIn.php" method="post">
+		<label for="email">Enter email :</label><br>
+		<input type="text" name="email" required="required"/><br/><br/>
+
+		<label for="password">Enter Password :</label><br>
+		<input type="password" name="password" required="required"/><br/><br/>
+
+		<label for="fcm_token">Enter FCM Token :</label><br>
+		<input type="text" name="fcmToken" required="required"/><br/><br/>
+
+		<input type="submit" value="SignIn"/>
+	</form>
+</body>
+</html>

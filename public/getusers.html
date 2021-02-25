@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bada Software</title>
+</head>
+<body>
+	<h2>Get Users</h2>
+		
+	<form action="../middleware/GetUsers.php" method="post">
+		<label for="api_key">Enter api key :</label><br>
+		<input type="text" name="apiKey" required="required"/><br/><br/>
+
+		<label for="page_number">Enter page number :</label><br>
+		<input type="text" name="pageNumber" required="required"/><br/><br/>
+
+		<input type="submit" value="Get Users"/>
+	</form>
+</body>
+</html>
